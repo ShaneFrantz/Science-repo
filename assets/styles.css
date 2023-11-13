@@ -1,0 +1,72 @@
+:root {
+  /*Colors*/
+  --white: #fff;
+  --black: #000;
+  --lightGrayBackground: #f5f5f5;
+  --lightGray: #f1f1ef;
+  --gray: #dcdcd7;
+  --darkGray: #83857b;
+  --hoverGray: #7e7f74;
+  --barGray: #bab9af;
+  --red: #c22033;
+  --darkRed: #940731;
+  /*Font*/
+  --Montserrat: 'Montserrat', sans-serif;
+  --AdobeGaramond: 'Adobe Garamond Pro', serif;
+  /*Font Sizes*/
+  --fontHero: 3rem;
+  --fontVeryLarge: 2.125rem;
+  --fontLarge: 1.75rem;
+  --fontMedium: 1.5rem;
+  --fontRegular: 1rem;
+  --fontSmall: 0.75rem;
+  --fontVerySmall: 0.688rem;
+  /*Font Weights*/
+  --weightLight: 300;
+  --weightRegular: 400;
+  --weightMedium: 500;
+  --weightSemiBold: 600;
+  --weightBold: 700;
+  --weightExtraBold: 800;
+}
+
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  color: black;
+}
+
+.carousel-item>img {
+  height: 75vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23c22033' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  width: 30px;
+  height: 48px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23c22033' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  width: 30px;
+  height: 48px;
+}
+
+#professorTable th {
+  color: var(--white);
+  background-color: var(--darkRed);
+  position: sticky;
+  top: 0px;
+}
+
+#professorTable td {
+  background-color: var(--lightGrayBackground);
+  color: var(--black);
+}
+
+#professorTable td:hover {
+  background-color: var(--hoverGray);
+}
