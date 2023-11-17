@@ -1,0 +1,170 @@
+[
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Marne",
+      "LastName": "Bailey",
+      "Email": "BaileyMa@lewisu.edu",
+      "Department": "Biology",
+      "Title": "Professor",
+      "Phone": "(815)836-5395"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Mallory",
+      "LastName": "Havens",
+      "Email": "havensmy@lewisu.edu",
+      "Department": "Biology",
+      "Title": "Associate Professor",
+      "Phone": "(815)836-5982"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Jerry",
+      "LastName": "Kavouras",
+      "Email": "KavourJe@lewisu.edu",
+      "Department": "Biology",
+      "Title": "Professor",
+      "Phone": "(815)836-5723"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Elizabeth",
+      "LastName": "Kozak",
+      "Email": "KozakEl@lewisu.edu",
+      "Department": "Biology",
+      "Title": "Associate Professor",
+      "Phone": "(815)836-5726"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Cynthia",
+      "LastName": "Misischia",
+      "Email": "misisccy@lewisu.edu",
+      "Department": "Biology",
+      "Title": "Associate Professor",
+      "Phone": "(815)836-5215"
+    },
+    {
+      "FirstName": "Jeannette",
+      "LastName": "Pifer",
+      "Email": "PiferJe@lewisu.edu",
+      "Department": "Biology",
+      "Title": "Instructor",
+      "Phone": "(815)836-5330"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Sarah",
+      "LastName": "Powers",
+      "Email": "powerssa@lewisu.edu",
+      "Department": "Biology",
+      "Title": "Professor",
+      "Phone": "(815)588-7079"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "James",
+      "LastName": "Rago",
+      "Email": "RagoJa@lewisu.edu",
+      "Department": "Biology",
+      "Title": "Professor",
+      "Phone": "(815)836-5394"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Jennifer",
+      "LastName": "Roberts",
+      "Email": "RobertJe@lewisu.edu",
+      "Department": "Biology",
+      "Title": "Professor",
+      "Phone": "(815)836-5396"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Holly",
+      "LastName": "Snyder",
+      "Email": "snyderho@lewisu.edu",
+      "Department": "Biology",
+      "Title": "Associate Professor",
+      "Phone": "(815)588-7434"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Erin",
+      "LastName": "Zimmer",
+      "Email": "ZimmerEr@lewisu.edu",
+      "Department": "Biology",
+      "Title": "Professor",
+      "Phone": "(815)836-5659"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Teresa",
+      "LastName": "Bixby",
+      "Email": "bixbyte@lewisu.edu",
+      "Department": "Chemistry",
+      "Title": "Professor",
+      "Phone": "(815)836-5715"
+    },
+    {
+      "FirstName": "Mary Wheeler",
+      "LastName": "Charles",
+      "Email": "CharleMa@lewisu.edu",
+      "Department": "Chemistry",
+      "Title": "Assistant Professor",
+      "Phone": "(815)836-5588"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Chris",
+      "LastName": "Condeiu",
+      "Email": "CondeiCh@lewisu.edu",
+      "Department": "Chemistry",
+      "Title": "Assistant Professor",
+      "Phone": "(815)588-7449"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Jason",
+      "LastName": "Keleher",
+      "Email": "KeleheJa@lewisu.edu",
+      "Department": "Chemistry",
+      "Title": "Professor",
+      "Phone": "(815)836-5978"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Daniel",
+      "LastName": "Kissel",
+      "Email": "kisselda@lewisu.edu",
+      "Department": "Chemistry",
+      "Title": "Associate Professor",
+      "Phone": "(815)834-6019"
+    },
+    {
+      "FirstName": "Amy",
+      "LastName": "Mlynarski",
+      "Email": "amlynarski@lewisu.edu",
+      "Department": "Chemistry",
+      "Title": "Instructor",
+      "Phone": "(815)836-5146"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Pierre",
+      "LastName": "St. Raymond",
+      "Email": "StRaymPi@lewisu.edu",
+      "Department": "Chemistry",
+      "Title": "Professor",
+      "Phone": "(815)836-5696"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Kari",
+      "LastName": "Stone",
+      "Email": "kstone1@lewisu.edu",
+      "Department": "Chemistry",
+      "Title": "Associate Professor",
+      "Phone": "(815)836-6109"
+    }
+]
