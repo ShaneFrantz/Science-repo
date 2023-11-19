@@ -69,7 +69,7 @@ async function loadImg() {
   // pulls images from assets folder
   const localImage = {
     image_name: 'Sciencecredits.png',
-    name: "Aviation Credits"
+    name: "Science Credits"
   };
   let outputStr = "";
   outputStr += `<div class="carousel-item" data-bs-interval="10000">
