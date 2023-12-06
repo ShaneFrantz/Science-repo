@@ -1,6 +1,6 @@
 const api_url = "https://ecams-billboard--api.azurewebsites.net";
 const acp_url = "https://ecams-billboard-acp.azurewebsites.net";
-const department = "Biology and Chemistry Department";
+const department = "Science";
 
 let data = [];
 
@@ -69,7 +69,7 @@ async function loadImg() {
 
   // pulls images from assets folder
   const localImage = {
-    image_name: 'ScienceCredits.png',
+    image_name: 'Sciencecredits.png',
     name: "Science Credits"
   };
   let outputStr = "";
