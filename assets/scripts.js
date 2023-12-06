@@ -1,5 +1,6 @@
 const api_url = "https://ecams-billboard--api.azurewebsites.net";
 const acp_url = "https://ecams-billboard-acp.azurewebsites.net";
+const department = "Biology and Chemistry Department";
 
 let data = [];
 
@@ -28,7 +29,7 @@ $(window).on("load", function () {
 });
 
 async function getData() {
-  await fetch(api_url + "/api/data")
+  await fetch(api_url + "/api/data/" + department)
     .then((res) => res.json())
     .then((localData) => {
       data = localData;
@@ -37,7 +38,7 @@ async function getData() {
   console.log(data);
 }
 
-/*async function loadData() {
+async function loadData() {
   await getData();
   outputStr = "";
   data.forEach((element, index) => {
@@ -49,8 +50,8 @@ async function getData() {
   });
   $("#profs").html(outputStr);
 }
-*/
-//loadData();
+
+loadData();
 
 async function getImg() {
   const imageData = await fetch(api_url + "/api/banners")
@@ -68,7 +69,7 @@ async function loadImg() {
 
   // pulls images from assets folder
   const localImage = {
-    image_name: 'Sciencecredits.png',
+    image_name: 'ScienceCredits.png',
     name: "Science Credits"
   };
   let outputStr = "";
@@ -115,49 +116,5 @@ function openProfessorModal(professorId) {
   $("#professorOffice").html(professor.room);
   $("#professorModal").modal("show")
 }
-
-
-// Function to fetch professors from the JSON file
-function fetchProfessors() {
-  fetch('assets/sciencefaculty.json')
-      .then(response => {
-          if (!response.ok) {
-              throw new Error('Network response was not ok');
-          }
-          return response.json();
-      })
-      .then(data => addProfessorsToTable(data))
-      .catch(error => console.error('Error fetching the professors:', error));
-}
-
-
-// Function to add professors to the table
-function addProfessorsToTable(professors) {
-  const tableBody = document.getElementById('profs');
-
-  professors.forEach(professor => {
-      const tr = document.createElement('tr');
-      
-      const nameTd = document.createElement('td');
-      nameTd.textContent = `${professor.FirstName} ${professor.LastName}`;
-
-      const officeTd = document.createElement('td');
-      officeTd.textContent = professor.Office ? professor.Office : 'N/A';
-
-      const emailTd = document.createElement('td');
-      emailTd.textContent = professor.Email;
-
-      tr.appendChild(nameTd);
-      tr.appendChild(officeTd);
-      tr.appendChild(emailTd);
-
-      tableBody.appendChild(tr);
-  });
-}
-
-
-
-// Call fetchProfessors on window load or DOMContentLoaded event
-window.addEventListener('DOMContentLoaded', fetchProfessors);
 
 loadImg();
