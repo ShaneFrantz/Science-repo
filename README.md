@@ -14,6 +14,8 @@ Jacob Prince: jacobmprince@lewisu.edu JPrince25
 
 Luke Mendiola: lukecmendiola@lewisu.edu luke-mendi02
 
+Shane Frantz: shanesfrantz@lewisu.edu ShaneFrantz
+
 ## MVP:
 https://github.com/Scrumdiddliumptious/ECAMS-Billboard-Static/blob/master/MVP.md
 
