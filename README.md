@@ -4,15 +4,15 @@ This repository can be used to create a simple Azure hosted static website.
 
 ### Credit:
 
-Ryan Anderson: ryananderson@lewisu.edu
+Ryan Anderson: ryananderson@lewisu.edu randerson2700
 
-David Abrutis: davidaabrutis@lewisu.edu
+David Abrutis: davidaabrutis@lewisu.edu dabrutis
 
-Pablo Enriquez: pablorenriquez@lewisu.edu
+Pablo Enriquez: pablorenriquez@lewisu.edu Pablo-Enriquez
 
-Jacob Prince: jacobmprince@lewisu.edu
+Jacob Prince: jacobmprince@lewisu.edu JPrince25
 
-Luke Mendiola: lukecmendiola@lewisu.edu
+Luke Mendiola: lukecmendiola@lewisu.edu luke-mendi02
 
 ## MVP:
 https://github.com/Scrumdiddliumptious/ECAMS-Billboard-Static/blob/master/MVP.md
